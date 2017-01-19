@@ -45,7 +45,7 @@ public class BlockDecomposer extends BlockContainer
 		return true;
 	}
 	
-	public boolean onBlockActived(World world, int x, int y, int z, EntityPlayer player, int side, float hitx,  float hity, float hitz)
+	public boolean onBlockActivated(World world, int x, int y, int z, EntityPlayer player, int side, float hitx,  float hity, float hitz)
 	{
 		if(world.isRemote)
 		{

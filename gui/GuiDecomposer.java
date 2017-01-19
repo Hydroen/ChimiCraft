@@ -13,7 +13,7 @@ import net.minecraft.util.ResourceLocation;
 
 public class GuiDecomposer extends GuiContainer 
 {
-	private static final ResourceLocation texture = new ResourceLocation(ModChimiCraft.MODID, "textures/gui/container/cupboard.png");
+	private static final ResourceLocation texture = new ResourceLocation(ModChimiCraft.MODID, "textures/gui/container/guidecomposer.png");
 	
 	private TileEntityDecomposer tileDecomposer;
 	private IInventory playerInv;
