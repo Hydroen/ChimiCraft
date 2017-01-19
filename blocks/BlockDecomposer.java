@@ -31,7 +31,7 @@ public class BlockDecomposer extends BlockContainer
 	@Override
 	public TileEntity createNewTileEntity(World world, int metadata) 
 	{
-		if(metadata == 1)
+		if(metadata == 0)
 		{
 			return new TileEntityDecomposer();
 		}
@@ -53,7 +53,7 @@ public class BlockDecomposer extends BlockContainer
 		}
 		else
 		{
-			player.openGui(ModChimiCraft.instance, 1,  world, x, y, z);
+			player.openGui(ModChimiCraft.instance, 0,  world, x, y, z);
 			return true;
 		}
 	}
